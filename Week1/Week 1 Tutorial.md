@@ -11,10 +11,9 @@ My tasks for the Tutorial were
 - Start the node
 - Open a web console and display the static IP address
 
-A screenshot of completed network can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week1/GNS-Intro-12091677-network.png).
+I was a little behind due to the time taken to install the *GNS3* image, but once the tutor gave a demonstration and supplied the commands I found it relatively easy. 
+I have minimal exposure to Linux and this week I learned the command to display the ip address - 'ip addr show'.
 
-I found the task quite simple once our tutor gave a demonstration and supplied the commands. I was a little behind due to the time taken to install the *GNS3* image.  
-I have minimal exposure to Linux, this week I learned the command 'ip addr show'.
-
-A screenshot of the web console showing the static ip can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week1/GNS-Intro-12091677-ipaddress.png).
-
+A screenshot of completed network can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week1/GNS-Intro-12091677-network.png).     
+A screenshot of the web console showing the static ip can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week1/GNS-Intro-12091677-ipaddress.png).   
+A copy of the *GNS3* project can be downloaded [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week1/GNS3-Intro-12091677.gns3project).
