@@ -1,6 +1,6 @@
-# Week 1 Tutorial
+# Week 1
 
-Week one Tutorial was an introuduction to ***COIT12206 TCP/IP Principles and Protocols***, in which we met the unit coordinator, installed the supplied *GNS3* image and started our journey on *GNS3*.  
+Week one was an introuduction to ***COIT12206 TCP/IP Principles and Protocols***, in which we met the unit coordinator, installed the supplied *GNS3* image and started our journey on *GNS3*.  
 
 My tasks for the Tutorial were
 - Create a new *GNS3* project 
