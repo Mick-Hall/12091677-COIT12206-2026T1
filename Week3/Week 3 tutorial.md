@@ -18,8 +18,12 @@ A screenshot of the messages between client and server can be viewed [here](http
 
 My second Tutorial tasks were
 - On the link connecting host 1 to the switch, start a packet capture
-- Ping from host A to host B, sending three requests
-- Use netcat to send your name from host A to host C
+- Ping from host 1 to host 2, sending three requests
+- Use netcat to send your name from host 1 to host 3
 - Stop the capture on the link
 - Transfer the capture file from GNS3 to your host computer, saving as Capture-Basics-<studentid>-ping-netcat.pcap
+
+Once I revisited the Tutorial recording, I transfered the .pcap file from *GNS3* to my local machine. I opened the *Wireshark* capture and realised I had only pinged host 2, I didn't use any netcat commands. Once I had realised this, I deleted the original file and completed the capture again.   
+
+The *Wireshark* capture file can be downloaded [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week3/Capture-Basics-12091677-ping-netcat.pcap).
 
