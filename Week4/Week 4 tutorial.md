@@ -23,5 +23,9 @@ There were two Tutorial tasks this week, the first tasks were:
 A screenshot of a sucessful ping between hosts on different subnets can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/View-Routes-12091677-ping.png).    
 A copy of the *GNS3* project can be downloaded [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/View-Routes-12091677.gns3project).   
 
+The second tutorial tasks were:
+- Import the OSPF-Basics-Template.gns3project project, and duplicate as `OSPF-Basics-.gns3project'
+- Start all nodes. Wait for all the FRR nodes to boot. Wait until they all show a frr# prompt.
+- Use the three FRR show ip commands to view routing information. Identify and understand key information, such as IP address of neighbour routers, destination subnet addresses in routing tables, and the next node in the path to that destination (usually either directly connected or via a router).
  
  
