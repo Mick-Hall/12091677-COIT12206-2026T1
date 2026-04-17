@@ -2,7 +2,7 @@
 
 In week two we covered ***Encapsulation and Decapsulation in Network Communication***, in which we learnt how data as it travels from source to destination as it traverses the TCP/IP model. 
 
-My Tutorial tasks on were
+My Tutorial tasks on were:
 - Create a new *GNS3* project
 - Add four Linux hosts and one ethernet switch and connect together in a LAN
 - Configure two of the hosts IP address using the *GNS3 configure* menu
@@ -13,7 +13,7 @@ My Tutorial tasks on were
 A screenshot of host 1's IP, configured using the *GNS3* configure menu can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week2/Setting-IP-12091677-host1.png) and host 2's IP, also configured using the *GNS3* configure menu can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week2/Setting-IP-12091677-host2.png).   
 A screenshot of host 3's IP, configured using a console can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week2/Setting-IP-12091677-host3.png) and host 4's IP, also configured using a console can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week2/Setting-IP-12091677-host4.png).
 
-My second tutorial tasks were
+My second tutorial tasks were:
 - Ping from host 1 to host 2, stopping the ping after 5 responses
 - View and understand the ping results
 - Ping from a host to an IP that didn't exist on the network
