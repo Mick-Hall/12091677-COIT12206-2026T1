@@ -6,7 +6,7 @@ I found the tasks in the test quite easy as we had been over them in the previou
 My completed asssessment can be downloaded [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week3/In-class%20Lab%20Test%201%20Report%20-%2012091677.docx).   
 
 After the test we continued with out tutorial tasks.      
-My Tutorial tasks were 
+My Tutorial tasks were:
 - Start the netcat server on a host using a port that is ***not*** 12345
 - On another host, start the netcat client to connect to the netcat server
 - Send your name in a message from client to server
@@ -16,7 +16,7 @@ I had to revisit the Tutorial recording before i got netcat working properly, i 
 
 A screenshot of the messages between client and server can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week3/Netcat-Basics-12091677-client-server%20.png).   
 
-My second Tutorial tasks were
+My second Tutorial tasks were:
 - On the link connecting host 1 to the switch, start a packet capture
 - Ping from host 1 to host 2, sending three requests
 - Use netcat to send your name from host 1 to host 3
