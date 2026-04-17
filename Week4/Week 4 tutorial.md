@@ -1,7 +1,7 @@
 # Week 4
 
 In Week 4 we covered ***Advanced routing***, where we learned how data is routed or forwarded from source to destination, the best path the data takes, the protocols used, viewed routing tables and learned more new commands.   
-Given it was the Easter long weekend, progress this week was a little slow. I found the lecture tasks this week were a little more challenging, mainly because *GNS3* kept crashing when trying to use the router console for the OSPF tasks. To rectify the issue, a simple restart of *GNS3* and *Virtual Box* was required.
+Given it was the Easter long weekend, progress this week was a little slow. I found the lecture tasks this week were a little more challenging, mainly because *GNS3* kept crashing when trying to use the router console for the OSPF tasks. To rectify the issue, a simple restart of *GNS3* and *Virtual Box* was required (numerous times).
 
 There were two Tutorial tasks this week, the first tasks were:
 - Create project named View-Routes-12091677
@@ -25,7 +25,16 @@ A copy of the *GNS3* project can be downloaded [here](https://github.com/Mick-Ha
 
 The second tutorial tasks were:
 - Import the OSPF-Basics-Template.gns3project project, and duplicate as `OSPF-Basics-.gns3project'
-- Start all nodes. Wait for all the FRR nodes to boot. Wait until they all show a frr# prompt.
-- Use the three FRR show ip commands to view routing information. Identify and understand key information, such as IP address of neighbour routers, destination subnet addresses in routing tables, and the next node in the path to that destination (usually either directly connected or via a router).
+- Start all nodes. Wait for all the FRR nodes to boot. Wait until they all show a frr# prompt
+- Use the three FRR show ip commands to view routing information. Identify and understand key information, such as IP address of neighbour routers, destination subnet addresses in routing tables, and the next node in the path to that destination (usually either directly connected or via a router)
+- Use traceroute to determine the path between the two hosts
+- For each currently used path, disconnect one of the links on that path by stopping the corresponding NETem node
+- Use traceroute again until the new path is observed
+
+A screenshot of the network can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-network.png), the network consists of 2x Linux hosts, 4x Free Range Routers(FRR) and 2x Network Emulators, creating 6x subnets.    
+The command *'show ip ospf neighbor'* was used to show the neighboring routers of FRR-1. This shows the FRR-2 is connected on port eth1 with the ip address of 10.10.2.1 and FRR-3 is connected to port eth2 with the ip address of 10.10.3.1 and can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-FRR1neighbor.png).    
+The command *'show ip ospf route'* was used to view the routing tables for [FRR-1](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-FRR1-routing-table.png) and [FRR-2](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-FRR2-routing-table.png) and summary table of all routers can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-router-tables.png).   
+The command *'traceroute'* was used to view the path data was sent from source (Host 1) to destination (Host 2), it shows that the data was sent through FRR-1 -> Frr-2 -> FRR-4, and when NETem1 was stopped, it was then re-routed through FRR-1 -> FRR-3 -> FRR-4, screenshot can be viewed [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677-traceroute.png).   
+A copy of the *GNS3* project can be downloaded [here](https://github.com/Mick-Hall/12091677-COIT12206-2026T1/blob/main/Week4/OSPF-Basics-12091677.gns3project).    
  
  
