@@ -2,7 +2,7 @@
 
 Week one was an introuduction to ***COIT12206 TCP/IP Principles and Protocols***, in which we met the unit coordinator, installed the supplied *GNS3* image and started our journey on *GNS3*.  
 
-My tasks for the Tutorial were
+My tasks for the Tutorial were:
 - Create a new *GNS3* project 
 - Add a single Linux host
 - Add a box with some text to descibe the project
